@@ -6125,19 +6125,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alexis\\.nuget\\packages\\": {}
+    "C:\\Users\\Zenkaii\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\02-DOMINIO-Tests\\02-DOMINIO-Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\02-DOMINIO-Tests\\02-DOMINIO-Tests.csproj",
       "projectName": "02-DOMINIO-Tests",
-      "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\02-DOMINIO-Tests\\02-DOMINIO-Tests.csproj",
-      "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\02-DOMINIO-Tests\\obj\\",
+      "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\02-DOMINIO-Tests\\02-DOMINIO-Tests.csproj",
+      "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\02-DOMINIO-Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6151,8 +6151,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj": {
-              "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj"
+            "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj": {
+              "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj"
             }
           }
         }
@@ -6204,7 +6204,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -41,7 +41,7 @@ namespace _02_DOMINIO.ValueObject
         {
             if (string.IsNullOrWhiteSpace(value))
             {
-                throw new ArgumentException("El nombre no puede estar vacío."); //o expection directamente?
+                throw new ArgumentException("El nombre no puede estar vacío.");
             }
         }
     }

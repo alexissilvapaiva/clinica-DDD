@@ -4,55 +4,55 @@ using _01_APLICACION.DTO;
 using Autofac;
 using _00_PRESENTACION.IoC_Container;
 
-//IContainer container = ContainerMemory.getContainer(); //CONEXION A MEMORIA
-//IContainer container = ContainerSQL.getContainer(); //CONEXION A SQL SERVER
-IContainer container = ContainerMongoDB.getContainer(); //CONEXION A MONGODB
+try
+    {
+        IContainer container = Container.GetContainer();
 
-ClienteDTO Alexis = new ClienteDTO(
-    Guid.NewGuid(),
-    "Alexis",
-    "Paiva",
-    "alexis@paiva.com"
-    );
+        ClienteDTO Alexis = new ClienteDTO(
+            Guid.NewGuid(),
+            "Alexis",
+            "Paiva",
+            "alexis@paiva.com"
+            );
 
-ClienteDTO Luis = new ClienteDTO(
-    Guid.NewGuid(),
-    "Luis",
-    "Blanco",
-    "luis@blanco.com"
-    );
+        ClienteDTO Luis = new ClienteDTO(
+            Guid.NewGuid(),
+            "Luis",
+            "Blanco",
+            "luis@blanco.com"
+            );
 
-ClienteDTO Paula = new ClienteDTO(
-    Guid.NewGuid(),
-    "Paula",
-    "Berghella",
-    "paula@berghella.com"
-    );
+        ClienteDTO Paula = new ClienteDTO(
+            Guid.NewGuid(),
+            "Paula",
+            "Berghella",
+            "paula@berghella.com"
+            );
 
-CrearCliente creadorDeClientes = container.Resolve<CrearCliente>();
-creadorDeClientes.Ejecutar(Alexis);
-creadorDeClientes.Ejecutar(Luis);
-creadorDeClientes.Ejecutar(Paula);
-ObtenerClientes obtenedorDeUsuarios = container.Resolve<ObtenerClientes>();
+    CrearCliente creadorDeClientes = container.Resolve<CrearCliente>();
+    creadorDeClientes.Ejecutar(Alexis);
+    creadorDeClientes.Ejecutar(Luis);
+    creadorDeClientes.Ejecutar(Paula);
 
-/* Conexion a memoria
- * ClienteRepositorioEnMemoria clienteRepo = new ClienteRepositorioEnMemoria();
-CrearCliente creadorDeClientes = new CrearCliente(
-        clienteRepo
-    );
-creadorDeClientes.ejecutar(Alexis);
-creadorDeClientes.ejecutar(Luis);
-creadorDeClientes.ejecutar(Paula);
-ObtenerUsuarios obtenedorDeUsuarios = new ObtenerUsuarios(
-        clienteRepo
-    );
+    ObtenerClientes obtenedorDeClientes = container.Resolve<ObtenerClientes>();
 
-List<ClienteDTO> todosLosUsuarios = obtenedorDeUsuarios.ejecutar();
-*/
+    List<ClienteDTO> todosLosClientes = obtenedorDeClientes.Ejecutar();
 
-List<ClienteDTO> todosLosUsuarios = obtenedorDeUsuarios.Ejecutar();
+    ObtenerClientePorId obtenedorDeUnSoloCliente = container.Resolve<ObtenerClientePorId>();
 
-foreach (ClienteDTO cliente in todosLosUsuarios)
-{
-    Console.WriteLine(cliente.Presentacion());
-}
+    ActualizarEmail actualizadorDeEmail = container.Resolve<ActualizarEmail>();
+
+    EliminarCliente eliminadorDeCliente = container.Resolve<EliminarCliente>();
+
+    foreach (ClienteDTO cliente in todosLosClientes)
+        {
+            Console.WriteLine(
+                "ID: " + cliente.Id() +
+                "\n-----------------------------------------\n" +
+                cliente.Presentacion());
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }

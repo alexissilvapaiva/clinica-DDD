@@ -1,11 +1,11 @@
 ﻿using _01_APLICACION.DTO;
 using _02_DOMINIO.Entidad;
 using _02_DOMINIO.Repositorio;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
 namespace _01_APLICACION
 {

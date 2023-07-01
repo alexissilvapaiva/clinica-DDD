@@ -1,9 +1,9 @@
 ﻿using _02_DOMINIO.Repositorio;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
 namespace _01_APLICACION
 {
@@ -15,9 +15,9 @@ namespace _01_APLICACION
             this.repositorio = repositorio;
         }
 
-        public void Ejecutar(Guid idCliente)
+        public void Ejecutar(Guid id)
         {
-            this.repositorio.EliminarCliente(idCliente);
+            this.repositorio.EliminarCliente(id);
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwmsjjoh3l78K6m6o04VhjhzBx5mNRvz9gOKidvOtufnrVLUMr/rd3YIY1pVpu7BGGfGdCjxEUtYJQLZS8Xjkg==",
+  "dgSpecHash": "v3enPLQoWPz6x+o0YmRV/IdASplq0iSp5h8AtXyDUchrcYxKgYi4milfu74lwmmULyoH6+hqeAGvQuQ6teSeZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj",
+  "projectFilePath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
