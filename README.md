@@ -23,3 +23,6 @@ Adicionalmente, se implementó Entity Framework.
 
 ### Caso de uso 
 ![ClinicaVeterinaria](./documentacion/UML.png "Caso de Uso")
+
+### Documentación 
+Se adjunta documento de requerimientos y de instrucciones necesarias para el despliegue de la aplicación en un entorno de pruebas.
