@@ -28,3 +28,5 @@ C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\03-I
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\refint\03-INFRAESTRUCTURA.dll
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\03-INFRAESTRUCTURA.pdb
 C:\Users\Alexis\Desktop\ClinicaVeterinaria\INFRAESTRUCTURA\obj\Debug\net6.0\ref\03-INFRAESTRUCTURA.dll
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\bin\Debug\net6.0\03-INFRAESTRUCTURA.runtimeconfig.json
+C:\Users\Zenkaii\Desktop\clinica-DDD\INFRAESTRUCTURA\obj\Debug\net6.0\03-INFRAESTRUCTURA.genruntimeconfig.cache

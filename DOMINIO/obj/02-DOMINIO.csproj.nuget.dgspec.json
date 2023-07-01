@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj": {}
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj",
         "projectName": "02-DOMINIO",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\obj\\",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

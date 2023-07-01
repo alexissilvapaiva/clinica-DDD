@@ -1,9 +1,9 @@
 ﻿using _02_DOMINIO.ValueObject;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
 namespace _02_DOMINIO.Entidad
 {
@@ -43,16 +43,9 @@ namespace _02_DOMINIO.Entidad
         {
             return this.email.Valor();
         }
-        public void CambiarNombre(String nuevoNombre)
+        public void CambiarEmail(String nuevoEmail)
         {
-            this.nombre = new Nombre(nuevoNombre);
-        }
-
-        public String Presentacion()
-        {
-            return "Mi nombre es " + this.nombre.Valor() +
-                   "Mi apellido es " + this.apellido.Valor() +
-                   "Mi email es " + this.email.Valor();
+            this.email = new Email(nuevoEmail);
         }
     }
 }

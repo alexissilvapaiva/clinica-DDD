@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\WINFORM 2.1\\WINFORM 2.1.csproj": {}
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\WINFORM 2.1\\WINFORM 2.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\01-APLICACION.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\01-APLICACION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\01-APLICACION.csproj",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\01-APLICACION.csproj",
         "projectName": "01-APLICACION",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\01-APLICACION.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\obj\\",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\01-APLICACION.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj"
               }
             }
           }
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj",
         "projectName": "02-DOMINIO",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\obj\\",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,21 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj",
         "projectName": "03-INFRAESTRUCTURA",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\obj\\",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,8 +142,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj"
               }
             }
           }
@@ -161,6 +161,16 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
@@ -187,21 +197,98 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\WINFORM 2.1\\WINFORM 2.1.csproj": {
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\00-PRESENTACION.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\WINFORM 2.1\\WINFORM 2.1.csproj",
-        "projectName": "WINFORM 2.1",
-        "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\WINFORM 2.1\\WINFORM 2.1.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\WINFORM 2.1\\obj\\",
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\00-PRESENTACION.csproj",
+        "projectName": "00-PRESENTACION",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\00-PRESENTACION.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\01-APLICACION.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\01-APLICACION.csproj"
+              },
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj"
+              },
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\WINFORM 2.1\\WINFORM 2.1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\WINFORM 2.1\\WINFORM 2.1.csproj",
+        "projectName": "WINFORM 2.1",
+        "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\WINFORM 2.1\\WINFORM 2.1.csproj",
+        "packagesPath": "C:\\Users\\Zenkaii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\WINFORM 2.1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zenkaii\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -215,14 +302,17 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\01-APLICACION.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\APLICACION\\01-APLICACION.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\01-APLICACION.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\APLICACION\\01-APLICACION.csproj"
               },
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\DOMINIO\\02-DOMINIO.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\DOMINIO\\02-DOMINIO.csproj"
               },
-              "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj": {
-                "projectPath": "C:\\Users\\Alexis\\Desktop\\ClinicaVeterinaria\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj"
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\INFRAESTRUCTURA\\03-INFRAESTRUCTURA.csproj"
+              },
+              "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\00-PRESENTACION.csproj": {
+                "projectPath": "C:\\Users\\Zenkaii\\Desktop\\clinica-DDD\\PRESENTACION\\00-PRESENTACION.csproj"
               }
             }
           }
@@ -244,6 +334,12 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
             }
           },
           "imports": [
@@ -265,7 +361,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -16,18 +16,24 @@ namespace _03_INFRAESTRUCTURA
 
         private IMongoCollection<ClienteSchema> Conexion()
         {
-            const String connectionUri = "mongodb://localhost:27017";
-            const String dbName = "ClinicaVeterinaria";
+            const string connectionUri = "mongodb://localhost:27017";
+            const string dbName = "ClinicaVeterinaria";
             var client = new MongoClient(connectionUri);
             var db = client.GetDatabase(dbName);
-            var collection = db.GetCollection<ClienteSchema>("Clientes");
+            var collection = db.GetCollection<ClienteSchema>("clientes");
             return collection;
         }
 
-
-        public void EliminarCliente(Guid idCliente)
+        public void ActualizarEmail(Guid id, string nuevoEmail)
         {
-            throw new NotImplementedException();
+            IMongoCollection<ClienteSchema> coleccionClientes = Conexion();
+            coleccionClientes.UpdateOne(cliente => cliente.Id == id, Builders<ClienteSchema>.Update.Set(cliente => cliente.Email, nuevoEmail));
+        }
+
+        public void EliminarCliente(Guid id)
+        {
+            IMongoCollection<ClienteSchema> coleccionClientes = Conexion();
+            coleccionClientes.DeleteOne(cliente => cliente.Id == id);
         }
 
         public void Grabar(Cliente cliente)
@@ -39,19 +45,24 @@ namespace _03_INFRAESTRUCTURA
         public List<Cliente> ObtenerTodos()
         {
             List<Cliente> clientes = new List<Cliente>();
-            IMongoCollection<ClienteSchema> clienteMongoDB = Conexion();
-            var clientesEnDB = clienteMongoDB.Find(_ => true);
+            IMongoCollection<ClienteSchema> coleccionClientes = Conexion();
+            var clientesEnDB = coleccionClientes.Find(_ => true);
 
-            foreach (var item in clientesEnDB.ToList())
+            foreach (var i in clientesEnDB.ToList())
             {
-                Guid id = new Guid(item.Id.ToString());
-                String nombre = item.Nombre;
-                String apellido = item.Apellido;
-                String email = item.Email;
+                Guid id = new Guid(i.Id.ToString());
+                String nombre = i.Nombre;
+                String apellido = i.Apellido;
+                String email = i.Email;
                 Cliente cliente = new Cliente(id, nombre, apellido, email);
                 clientes.Add(cliente);
             }
             return clientes;
+        }
+
+        public Cliente ObtenerClientePorId(Guid id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
