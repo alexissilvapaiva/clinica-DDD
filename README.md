@@ -20,3 +20,6 @@ Se realizaron una serie de pruebas unitarias de los *value objects* de nuestra c
 Para la persistencia de datos, es posible intercambiar entre SQL Server y MongoDB. 
 
 Adicionalmente, se implementó Entity Framework.
+
+### Caso de uso 
+![ClinicaVeterinaria](./documentacion/UML.png "Caso de Uso")
